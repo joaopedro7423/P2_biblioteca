@@ -7,8 +7,8 @@
     tools:context=".MenuPrincipal">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="388dp"
-        android:layout_height="152dp"
+        android:layout_width="300dp"
+        android:layout_height="301dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
@@ -17,27 +17,34 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
-            android:layout_width="386dp"
-            android:layout_height="148dp">
+            android:layout_width="327dp"
+            android:layout_height="139dp">
 
             <TextView
                 android:id="@+id/Titulo"
-                android:layout_width="match_parent"
-                android:layout_height="32dp" />
+                android:layout_width="302dp"
+                android:layout_height="43dp"
+                android:background="#00BCD4"
+                android:text="Titulo:" />
 
             <TextView
                 android:id="@+id/Autores"
                 android:layout_width="386dp"
                 android:layout_height="47dp"
                 android:layout_below="@+id/Titulo"
-                android:layout_marginTop="6dp" />
+                android:layout_marginTop="6dp"
+                android:autoText="false"
+                android:background="#00BCD4"
+                android:text="Autores:" />
 
             <TextView
                 android:id="@+id/Status"
                 android:layout_width="385dp"
                 android:layout_height="32dp"
                 android:layout_below="@+id/Autores"
-                android:layout_marginTop="7dp" />
+                android:layout_marginTop="7dp"
+                android:background="#00BCD4"
+                android:text="Status:" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

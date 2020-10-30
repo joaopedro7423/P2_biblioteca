@@ -2,22 +2,21 @@ package com.example.biblioteca;
 
 public class ModelBiblioteca {
 
-    String autores,titulo;
-    int p_lido,qtd_p,status;
+    String autores,titulo,p_lido,qtd_p,status;
+
 
            ModelBiblioteca(){
                
            }
-   
-   
 
-    public ModelBiblioteca(String autores, String titulo, int p_lido, int qtd_p, int status) {
+    public ModelBiblioteca(String autores, String titulo, String p_lido, String qtd_p, String status) {
         this.autores = autores;
         this.titulo = titulo;
         this.p_lido = p_lido;
         this.qtd_p = qtd_p;
         this.status = status;
     }
+
 
     public String getAutores() {
         return autores;
@@ -35,31 +34,51 @@ public class ModelBiblioteca {
         this.titulo = titulo;
     }
 
-    public int getP_lido() {
+    public String getP_lido() {
         return p_lido;
     }
 
-    public void setP_lido(int p_lido) {
+    public void setP_lido(String p_lido) {
         this.p_lido = p_lido;
     }
 
-    public int getQtd_p() {
+    public String getQtd_p() {
         return qtd_p;
     }
 
-    public void setQtd_p(int qtd_p) {
+    public void setQtd_p(String qtd_p) {
         this.qtd_p = qtd_p;
     }
 
-    public int getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(String status) {
         this.status = status;
     }
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

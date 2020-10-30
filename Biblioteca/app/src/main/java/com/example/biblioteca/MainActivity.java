@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
                   map.put("titulo",titulo.getText().toString());
                   map.put("autores",autores.getText().toString());
                   map.put("qtd_p",qtd_p.getText().toString());
-                  map.put("p_lido",0);
-                  map.put("status",0);
+                  map.put("p_lido","0");
+                  map.put("status","0");
 
 
 

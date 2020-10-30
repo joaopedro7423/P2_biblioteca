@@ -22,6 +22,8 @@ public class myadapter extends FirebaseRecyclerAdapter<ModelBiblioteca,myadapter
         holder.Titulo.setText(model.getTitulo());
         holder.Autores.setText(model.getAutores());
         holder.Status.setText(model.getStatus());
+
+
     }
 
     @NonNull
