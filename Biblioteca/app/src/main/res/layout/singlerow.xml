@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="388dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="386dp"
+            android:layout_height="148dp">
+
+            <TextView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:id="@+id/Autores"
+                android:layout_width="386dp"
+                android:layout_height="47dp"
+                android:layout_below="@+id/Titulo"
+                android:layout_marginTop="6dp" />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="385dp"
+                android:layout_height="32dp"
+                android:layout_below="@+id/Autores"
+                android:layout_marginTop="7dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
